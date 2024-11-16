@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Initial post"
+title: "First post"
 date: 2024-11-17 03:00:00 -0900
 categories: Uncategorized
 ---
 
-# Initial post
+# First post
 
-Initial🐶🐱
+First 🐶 🐱
