@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 permalink: /about
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 ---
 
 # About inucat
