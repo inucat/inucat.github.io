@@ -1,12 +1,10 @@
-# README
+# inucat.github.io
 
-Hello! Under construction
+GitHub Pages repo
 
-## Posts
+To test locally, run:
 
-Posts are available [here](/posts)
-
-## About me
-
-You are so curious 😂
-See [About Me](/about).
+```sh
+bundle install
+bundle exec jekyll serve
+```

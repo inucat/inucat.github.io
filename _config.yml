@@ -1,3 +1,7 @@
-theme: jekyll-theme-minimal
+defaults:
+  - scope:
+      path: ""
+    values:
+      theme: jekyll-theme-minimal
 title: inucat's home
 description: Pretty chimaera of dog and cat
