@@ -17,8 +17,10 @@ Pretty Chimaera from dog and cat living in the Internet.
 ## Stack
 
 - [LOKI](https://github.com/inucat/win-LOKI_Keyboard_Indicator)
-  - ⌨ Keyboard indicator application for Windows with lightness focused
+  - ⌨️ Keyboard indicator application for Windows with lightness focused
 - [Timesync DSi](https://github.com/inucat/timesync-dsi)
   - 🎮 Hardware clock synchronizer with NTP for Nintendo DSi
 - [GBA MML Player](https://github.com/inucat/gba-mml-music-player)
-  - ♫ Mudic Macro Language (MML) converter and player for Game Boy Advance (GBA)
+  - 🎼 Mudic Macro Language (MML) converter and player for Game Boy Advance (GBA)
+- [PukiWiki VSCode](https://github.com/inucat/pukiwiki-vscode)
+  - ✏️ PukiWiki (yet another Wiki) syntax highligher for Visual Studio Code
