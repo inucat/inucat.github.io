@@ -10,7 +10,7 @@ theme: jekyll-theme-minimal
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ site.time | date: "%Y-%m-%d %H:%M" }} - {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
