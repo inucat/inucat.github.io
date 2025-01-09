@@ -7,7 +7,13 @@ permalink: /
 
 # README
 
-Hello! Under construction
+Hello!
+
+## NOTICE about URL
+
+The custom domain is tentative. Prefer using GitHub Pages subdomain:
+
+https://inucat.github.io
 
 ## Posts
 

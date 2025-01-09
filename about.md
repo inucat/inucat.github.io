@@ -2,7 +2,6 @@
 layout: page
 title: "About"
 permalink: /about
-# theme: jekyll-theme-minimal
 ---
 
 # About inucat
@@ -24,3 +23,5 @@ Pretty Chimaera from dog and cat living in the Internet.
   - 🎼 Mudic Macro Language (MML) converter and player for Game Boy Advance (GBA)
 - [PukiWiki VSCode](https://github.com/inucat/pukiwiki-vscode)
   - ✏️ PukiWiki (yet another Wiki) syntax highligher for Visual Studio Code
+- [Gan-men-Avoid](https://github.com/inucat/gan-men-avoid)
+  - 😃 Simple Java game some middle schooler made for the first time
