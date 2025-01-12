@@ -5,7 +5,7 @@ permalink: /posts
 theme: jekyll-theme-minimal
 ---
 
-# All posts
+# 全ての記事 / All posts
 
 <ul>
   {% for post in site.posts %}

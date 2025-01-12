@@ -1,8 +1,15 @@
 ---
 layout: post
-title: "logrotate on macOS"
+title: "macOSでlogrotate"
 created_date: 2024-12-13
 ---
+
+- [logrotate](#logrotate)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+    - [全体設定](#全体設定)
+    - [サーバごとの個別設定](#サーバごとの個別設定)
+    - [サービスの有効化](#サービスの有効化)
 
 # logrotate
 
@@ -12,7 +19,7 @@ created_date: 2024-12-13
 > of log files.
 
 [logrotate ↗️][1]は、サーバのログ管理に重宝する道具です。
-macOS 上で Dovecot のログの交替のために使ってみました。
+macOS 上で Dovecot のログの切り替えのために使ってみました。
 
 [1]: https://github.com/logrotate/logrotate
 
@@ -36,13 +43,13 @@ MacPorts を使うなら:
 # /opt/local/etc/logrotate.conf
 # -----------------------------
 # 詳細は `man logrotate` で確認ください。
-# 毎週ログを交替します。
+# 毎週ログを切り替えします。
 weekly
 # 4周回分（上記と合わせると、すなわち4週間分）だけ保存します。
 rotate 4
-# 交替後は新しい空のログファイルを作成します。
+# 切り替え後は新しい空のログファイルを作成します。
 create
-# 交替済みのログファイルの末尾に日付を記します。
+# 切り替え済みのログファイルの末尾に日付を記します。
 dateext
 # ログを圧縮します。
 compress
@@ -66,11 +73,11 @@ Dovecot の例（[公式文書そのまま ↗️][2]）:
     weekly
     rotate 4
     missingok           # ログファイルが存在しない場合をエラーとしては扱わない。
-    notifempty          # ログが空の場合は交替を行わない。
+    notifempty          # ログが空の場合は切り替えを行わない。
     compress
-    delaycompress       # ログの圧縮を次回の交替時まで遅延する。
-    sharedscripts       # 複数のログ交替の際も、スクリプトを一度のみ走らせる。
-    postrotate          # 交替後（post rotate）に実行されるスクリプト。
+    delaycompress       # ログの圧縮を次回の切り替え時まで遅延する。
+    sharedscripts       # 複数のログ切り替えの際も、スクリプトを一度のみ走らせる。
+    postrotate          # 切り替え後（post rotate）に実行されるスクリプト。
         # 内容。/bin/sh により実行される。インデントは任意。
         # MacPorts 由来のコマンドは、PATH の関係上絶対パスで書くことをおすすめ。
         #

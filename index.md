@@ -1,25 +1,34 @@
 ---
-# layout: page
 title: "Home"
 permalink: /
-# theme: jekyll-theme-minimal
 ---
 
-# README
+# トップページ / Top page
 
-Hello!
+ようこそ inucat の Web サイトへ！
 
-## NOTICE about URL
+Welcome to inucat's website!
 
-The custom domain is tentative. Prefer using GitHub Pages subdomain:
+🐶😺
 
-https://inucat.github.io
+## URL についての告知 / NOTICE about URL
 
-## Posts
+ドメイン名 `inucat.cloud` は一時的なものです．下記の GitHub Pages のサブドメインをご利用ください．
 
-Posts are available [here](/posts)
+The custom domain `inucat.cloud` is tentative. Prefer using GitHub Pages subdomain:
 
-## About me
+- [https://inucat.github.io](https://inucat.github.io)
+
+## ブログ / Blog
+
+ブログは下記リンクからご覧いただけます．
+
+Blog posts are available from the link below.
+
+- [BLOG](/posts)
+
+## 私について / About me
 
 You are so curious 😂
-See [About Me](/about).
+
+- [About Me](/about)

@@ -8,3 +8,12 @@ To test locally, run:
 bundle install
 bundle exec jekyll serve
 ```
+
+## Starting from Ruby setup
+
+```sh
+brew install rbenv
+rbenv install -l
+rbenv install 3.4.1
+rbenv init
+```
