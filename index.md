@@ -27,6 +27,10 @@ Blog posts are available from the link below.
 
 - [BLOG](/posts)
 
+## サイトに関する問い合わせ先 / Contact regarding the site contents
+
+- [inucat.github.io Issues](https://github.com/inucat/inucat.github.io/issues)
+
 ## 私について / About me
 
 You are so curious 😂
