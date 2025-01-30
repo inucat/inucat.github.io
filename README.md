@@ -9,6 +9,10 @@ bundle install
 bundle exec jekyll serve
 ```
 
+## 方針
+
+Web ページとして公開するので、HTML タグの多用を認める。
+
 ## Starting from Ruby setup
 
 ### macOS
